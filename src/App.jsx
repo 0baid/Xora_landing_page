@@ -3,6 +3,7 @@ import Header from './sections/Header'
 import Hero from './sections/Hero'
 import Features from './sections/Features'
 import Pricing from './sections/Pricing'
+import FAQ from './sections/FAQ'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
         <Hero/>
         <Features/>
         <Pricing/>
+        <FAQ/>
       </main>
     
      
