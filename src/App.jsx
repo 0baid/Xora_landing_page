@@ -6,6 +6,7 @@ import Pricing from './sections/Pricing'
 import FAQ from './sections/FAQ'
 import Testimonials from './sections/Testimonials'
 import Download from './sections/Download'
+import Footer from './sections/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
         <FAQ/>
         <Testimonials/>
         <Download/>
+        <Footer/>
       </main>
     
      
